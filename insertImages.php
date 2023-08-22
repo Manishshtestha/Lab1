@@ -22,7 +22,7 @@ if (array_key_exists('image', $_POST)) {
         <a href="index.php" class="btn btn-primary">Users</a>
         <br>
         <form action="" method="post" enctype="multipart/form-data">
-        <input type="file" name="image" id="image">
+        <input type="file" name="image[]" multiple="multiple" id="image">
         <button type="submit" name="image" class="btn btn-success">Add Image</button>
     </form>
     </div>
